@@ -55,7 +55,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
         lblTotal = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
         btnCalculate1 = new javax.swing.JButton();
-        btnClear = new javax.swing.JButton();
+        btnClearEddiebaldo = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -218,10 +218,10 @@ public class HighlanderHotel extends javax.swing.JFrame {
 
         btnCalculate1.setText("Calculate Charges");
 
-        btnClear.setText("Clear");
-        btnClear.addActionListener(new java.awt.event.ActionListener() {
+        btnClearEddiebaldo.setText("Clear");
+        btnClearEddiebaldo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnClearActionPerformed(evt);
+                btnClearEddiebaldoActionPerformed(evt);
             }
         });
 
@@ -259,7 +259,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
                 .addGap(55, 55, 55)
                 .addComponent(btnCalculate1)
                 .addGap(44, 44, 44)
-                .addComponent(btnClear)
+                .addComponent(btnClearEddiebaldo)
                 .addGap(52, 52, 52)
                 .addComponent(btnExit)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -289,7 +289,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnCalculate1)
-                            .addComponent(btnClear)
+                            .addComponent(btnClearEddiebaldo)
                             .addComponent(btnExit))
                         .addGap(34, 34, 34))))
         );
@@ -301,9 +301,9 @@ public class HighlanderHotel extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_lblTimeTodayActionPerformed
 
-    private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed
+    private void btnClearEddiebaldoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearEddiebaldoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnClearActionPerformed
+    }//GEN-LAST:event_btnClearEddiebaldoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -342,7 +342,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCalculate1;
-    private javax.swing.JButton btnClear;
+    private javax.swing.JButton btnClearEddiebaldo;
     private javax.swing.JButton btnExit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
