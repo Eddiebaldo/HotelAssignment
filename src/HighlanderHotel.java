@@ -54,7 +54,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
         lblTax = new javax.swing.JTextField();
         lblTotal = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
-        btnCalculate = new javax.swing.JButton();
+        btnCalculate1 = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
 
@@ -216,7 +216,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        btnCalculate.setText("Calculate Charges");
+        btnCalculate1.setText("Calculate Charges");
 
         btnClear.setText("Clear");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
@@ -257,7 +257,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
                 .addGap(37, 37, 37))
             .addGroup(layout.createSequentialGroup()
                 .addGap(55, 55, 55)
-                .addComponent(btnCalculate)
+                .addComponent(btnCalculate1)
                 .addGap(44, 44, 44)
                 .addComponent(btnClear)
                 .addGap(52, 52, 52)
@@ -288,7 +288,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnCalculate)
+                            .addComponent(btnCalculate1)
                             .addComponent(btnClear)
                             .addComponent(btnExit))
                         .addGap(34, 34, 34))))
@@ -341,7 +341,7 @@ public class HighlanderHotel extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCalculate;
+    private javax.swing.JButton btnCalculate1;
     private javax.swing.JButton btnClear;
     private javax.swing.JButton btnExit;
     private javax.swing.JLabel jLabel1;
